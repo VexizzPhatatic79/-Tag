@@ -13,7 +13,7 @@ local destroyButton = Instance.new("TextButton", screenGui)
 
 mainButton.Position = UDim2.new(0.5, -50, 0, 50)
 mainButton.Size = UDim2.new(0, 100, 0, 50)
-mainButton.Text = "ဖွင့်မည်"
+mainButton.Text = "Off"
 mainButton.BackgroundColor3 = Color3.new(1, 0, 0) -- Red
 mainButton.Draggable = true
 
