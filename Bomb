@@ -13,13 +13,13 @@ local destroyButton = Instance.new("TextButton", screenGui)
 
 mainButton.Position = UDim2.new(0.5, -50, 0, 50)
 mainButton.Size = UDim2.new(0, 100, 0, 50)
-mainButton.Text = "Off"
+mainButton.Text = "ဖွင့်မည်"
 mainButton.BackgroundColor3 = Color3.new(1, 0, 0) -- Red
 mainButton.Draggable = true
 
 destroyButton.Position = UDim2.new(0.5, 55, 0, 50)
 destroyButton.Size = UDim2.new(0, 30, 0, 30)
-destroyButton.Text = "X"
+destroyButton.Text = "ဖျောက်မည်"
 destroyButton.BackgroundColor3 = Color3.new(1, 0, 0) -- Red
 destroyButton.Draggable = true
 
@@ -69,7 +69,7 @@ mainButton.MouseButton1Click:Connect(function()
     isBombTagger = not isBombTagger
     if isBombTagger then
         mainButton.Text = "ဖွင့်မည်"
-        mainButton.BackgroundColor3 = Color3.new(0, 1, 0) -- Green
+        mainButton.BackgroundColor3 = Color3.new(0, 0, 1) -- Blue
         handleTeleportation()
     else
         mainButton.Text = "ပိတ်မည်"
